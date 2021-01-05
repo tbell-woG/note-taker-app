@@ -2,7 +2,7 @@
 
 Create a web application that can be used to write, save, and delete notes. 
 #
-Video Link: 
+Deployment Link: 
 #
 ## Table of Contents
 * [Project Description](#description)
