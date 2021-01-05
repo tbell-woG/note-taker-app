@@ -1,6 +1,6 @@
 # Note Taker App
 
-Create a web application that can be used to write, save, and delete notes. 
+A web application that can be used to write, save, and delete notes. 
 #
 Deployment Link: 
 #
