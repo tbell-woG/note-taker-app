@@ -16,11 +16,11 @@ module.exports = (app) => {
         
         // Get the last existing note's ID
         let lastId;
-        if (noteList.Length) {
-            lastId = Math.max(...noteList(noteList.map(note => note.id)));
+        if (noteList.length) {
+            lastId = Math.max(...(noteList.map(note => note.id)));
         
             // Or just set it to zero
-        }else {
+        } else {
             lastId = 0;
         }
         // Start the ID's at one
@@ -34,13 +34,13 @@ module.exports = (app) => {
     });
     
     // This is the DELETE method that deletes a note with a specific ID
-    app.delte('/api/notes/:id',(req, res) => {
+    app.delete('/api/notes/:id', (req, res) => {
         // Searches for the note by its ID and converts it into a string
         let findNote = noteList.find(({ id }) => id === JSON.parse(req.params.id));
 
         // Deletes note that matches the index of the note's ID
         noteList.splice(noteList.indexOf(findNote), 1);
-        res.end("The note was deleted");
+        res.end("Note was deleted");
     });
-
+    
 };
