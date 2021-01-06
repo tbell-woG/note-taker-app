@@ -13,12 +13,11 @@ Deployment Link:
 
 
 # Project Description
-As a web developer, taking notes is vital to staying on track and completing tasks. Therefore, the Note Taker App can be used to write, save, and delete notes. To use the web application, the user simply has to click the url link, which will lead them to the Note Taker homepage. After clicking on the "Get Started" button, they will be direct to the note taker page where they can add a note title and their note test. They can save and view their notes and delete any unwanted notes from the server. This application uses Express in the backend and saves and retrieve note data from a JSON file
-<!-- , "which acts as the server." -->
-#
-Click on the image below to watch the video.
+As a web developer, taking notes is vital to staying on track and completing tasks. Therefore, the Note Taker App can be used to write, save, and delete notes. To use the web application, the user simply has to click the url link, which will lead them to the Note Taker homepage. After clicking on the "Get Started" button, they will be directed to the note taker page where they can add a note title and their note text. They can save and view their notes and delete any unwanted notes from the server. This application uses Express in the backend and saves and retrieve note data from a JSON file.
 
-[![Watch the video](./assets/readme-generator-photo.png)](https://drive.google.com/file/d/1OpV6Pt9C5JMMY5PY6d2i2C2siDhu__ji/view?usp=sharing)
+#
+<img src="https://i.ibb.co/kqBTjCx/note-taker-index.png" alt="note-taker-index" border="0">
+<img src="https://i.ibb.co/q76BWFk/note-taker-notes.png" alt="note-taker-notes" border="0">
 
 # Built With
 The Note Taker Application was created with these coding languages:
