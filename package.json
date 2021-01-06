@@ -16,7 +16,6 @@
   "bugs": {
     "url": "https://github.com/tbell-woG/note-taker-app/issues"
   },
-  "homepage": "https://github.com/tbell-woG/note-taker-app#readme",
   "dependencies": {
     "express": "^4.17.1",
     "mysql": "^2.18.1"
